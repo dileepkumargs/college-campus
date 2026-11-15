@@ -1,0 +1,552 @@
+{
+  "branches": [
+    {
+      "id": 1,
+      "code": "MCA",
+      "name": "Master of Computer Applications",
+      "description": "Postgraduate computer applications programme"
+    },
+    {
+      "id": 2,
+      "code": "CSE",
+      "name": "Computer Science and Engineering",
+      "description": "Computer science undergraduate programme"
+    },
+    {
+      "id": 3,
+      "code": "ECE",
+      "name": "Electronics and Communication Engineering",
+      "description": "Electronics and communication programme"
+    },
+    {
+      "id": 4,
+      "code": "AIML",
+      "name": "Artificial Intelligence and Machine Learning",
+      "description": "AI and machine learning programme"
+    }
+  ],
+  "academicYears": [
+    {
+      "id": 1,
+      "name": "2026-2027",
+      "startDate": "2026-07-01",
+      "endDate": "2027-06-30",
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "2025-2026",
+      "startDate": "2025-07-01",
+      "endDate": "2026-06-30",
+      "active": false
+    }
+  ],
+  "sections": [
+    {
+      "id": 1,
+      "branchId": 1,
+      "semester": 1,
+      "name": "A"
+    },
+    {
+      "id": 2,
+      "branchId": 1,
+      "semester": 2,
+      "name": "A"
+    },
+    {
+      "id": 3,
+      "branchId": 2,
+      "semester": 5,
+      "name": "A"
+    },
+    {
+      "id": 4,
+      "branchId": 3,
+      "semester": 5,
+      "name": "A"
+    },
+    {
+      "id": 5,
+      "branchId": 4,
+      "semester": 5,
+      "name": "A"
+    }
+  ],
+  "faculty": [
+    {
+      "id": 1,
+      "name": "Dr. Sarah Smith",
+      "email": "sarah.smith@college.edu",
+      "department": "MCA",
+      "specialization": "Database Systems",
+      "phone": "+91 9000000001",
+      "branchId": 1
+    },
+    {
+      "id": 2,
+      "name": "Prof. Michael Johnson",
+      "email": "michael.j@college.edu",
+      "department": "MCA",
+      "specialization": "Operating Systems",
+      "phone": "+91 9000000002",
+      "branchId": 1
+    },
+    {
+      "id": 3,
+      "name": "Dr. Emily Brown",
+      "email": "emily.b@college.edu",
+      "department": "CSE",
+      "specialization": "Algorithms",
+      "phone": "+91 9000000003",
+      "branchId": 2
+    },
+    {
+      "id": 4,
+      "name": "Prof. David Wilson",
+      "email": "david.w@college.edu",
+      "department": "ECE",
+      "specialization": "Digital Electronics",
+      "phone": "+91 9000000004",
+      "branchId": 3
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "registerNo": "MCA26A001",
+      "name": "Aarav Kumar",
+      "email": "aarav.kumar@student.edu",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A",
+      "academicYear": "2026-2027",
+      "gpa": 8.7
+    },
+    {
+      "id": 2,
+      "registerNo": "MCA26A002",
+      "name": "Diya Sharma",
+      "email": "diya.sharma@student.edu",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A",
+      "academicYear": "2026-2027",
+      "gpa": 9.1
+    },
+    {
+      "id": 3,
+      "registerNo": "MCA26A003",
+      "name": "Rohan Shetty",
+      "email": "rohan.shetty@student.edu",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A",
+      "academicYear": "2026-2027",
+      "gpa": 7.9
+    },
+    {
+      "id": 4,
+      "registerNo": "CSE26A001",
+      "name": "Ananya Rao",
+      "email": "ananya.rao@student.edu",
+      "branchId": 2,
+      "semester": 5,
+      "section": "A",
+      "academicYear": "2026-2027",
+      "gpa": 8.8
+    },
+    {
+      "id": 5,
+      "registerNo": "ECE26A001",
+      "name": "Vikram Patil",
+      "email": "vikram.patil@student.edu",
+      "branchId": 3,
+      "semester": 5,
+      "section": "A",
+      "academicYear": "2026-2027",
+      "gpa": 8.2
+    },
+    {
+      "registerNo": "1CE25AI005",
+      "name": "Dileep Kumar G S",
+      "email": "dileepkumar61675@gmail.com",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A",
+      "academicYear": "2026-2027",
+      "gpa": 2,
+      "id": 6
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "code": "MCA101",
+      "name": "Database Management Systems",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A",
+      "type": "Theory",
+      "credits": 4,
+      "facultyId": 1,
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": 2,
+      "code": "MCA102",
+      "name": "Operating Systems",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A",
+      "type": "Theory",
+      "credits": 4,
+      "facultyId": 2,
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": 3,
+      "code": "MCA103",
+      "name": "Mathematics for Computer Applications",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A",
+      "type": "Theory",
+      "credits": 3,
+      "facultyId": 1,
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": 4,
+      "code": "MCA104",
+      "name": "Web Technologies",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A",
+      "type": "Theory",
+      "credits": 3,
+      "facultyId": 2,
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": 5,
+      "code": "MCA105",
+      "name": "Java Programming",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A",
+      "type": "Lab",
+      "credits": 2,
+      "facultyId": 1,
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": 6,
+      "code": "CSE501",
+      "name": "Analysis and Design of Algorithms",
+      "branchId": 2,
+      "semester": 5,
+      "section": "A",
+      "type": "Theory",
+      "credits": 4,
+      "facultyId": 3,
+      "academicYear": "2026-2027"
+    },
+    {
+      "id": 7,
+      "code": "ECE501",
+      "name": "Digital Signal Processing",
+      "branchId": 3,
+      "semester": 5,
+      "section": "A",
+      "type": "Theory",
+      "credits": 4,
+      "facultyId": 4,
+      "academicYear": "2026-2027"
+    }
+  ],
+  "attendance": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "subjectId": 1,
+      "facultyId": 1,
+      "date": "2026-11-10",
+      "status": "Present",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A"
+    },
+    {
+      "id": 2,
+      "studentId": 2,
+      "subjectId": 1,
+      "facultyId": 1,
+      "date": "2026-11-10",
+      "status": "Present",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A"
+    },
+    {
+      "id": 3,
+      "studentId": 3,
+      "subjectId": 1,
+      "facultyId": 1,
+      "date": "2026-11-10",
+      "status": "Absent",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A"
+    },
+    {
+      "id": 4,
+      "studentId": 1,
+      "subjectId": 2,
+      "facultyId": 2,
+      "date": "2026-11-11",
+      "status": "Present",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A"
+    },
+    {
+      "id": 5,
+      "studentId": 2,
+      "subjectId": 2,
+      "facultyId": 2,
+      "date": "2026-11-11",
+      "status": "On Duty",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A"
+    },
+    {
+      "id": 6,
+      "studentId": 3,
+      "subjectId": 2,
+      "facultyId": 2,
+      "date": "2026-11-11",
+      "status": "Present",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A"
+    }
+  ],
+  "timetable": [
+    {
+      "id": 1,
+      "day": "Monday",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "subjectId": 1,
+      "facultyId": 1,
+      "branchId": 1,
+      "semester": 1,
+      "section": "A",
+      "room": "Room 201"
+    },
+    {
+      "id": 2,
+      "day": "Monday",
+      "startTime": "10:00",
+      "endTime": "11:00",
+      "subjectId": 2,
+      "facultyId": 2,
+      "branchId": 1,
+      "semester": 1,
+      "section": "A",
+      "room": "Room 201"
+    },
+    {
+      "id": 3,
+      "day": "Tuesday",
+      "startTime": "09:00",
+      "endTime": "10:00",
+      "subjectId": 3,
+      "facultyId": 1,
+      "branchId": 1,
+      "semester": 1,
+      "section": "A",
+      "room": "Room 202"
+    },
+    {
+      "id": 4,
+      "day": "Wednesday",
+      "startTime": "11:00",
+      "endTime": "12:00",
+      "subjectId": 4,
+      "facultyId": 2,
+      "branchId": 1,
+      "semester": 1,
+      "section": "A",
+      "room": "Lab 1"
+    }
+  ],
+  "announcements": [
+    {
+      "id": 1,
+      "title": "Welcome to Academic Year 2026-2027",
+      "message": "The new academic year is now active. Please review your timetable and subject allocations.",
+      "audience": "All",
+      "branchId": null,
+      "createdAt": "2026-07-01T09:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Internal Assessment Schedule",
+      "message": "Internal assessment dates will be published by the examination section.",
+      "audience": "Students",
+      "branchId": 1,
+      "createdAt": "2026-11-12T09:00:00.000Z",
+      "semester": 1,
+      "section": "A"
+    },
+    {
+      "title": "holiday",
+      "audience": "Students",
+      "branchId": 1,
+      "message": "enjoy ",
+      "id": 3,
+      "createdAt": "2026-11-15T13:31:22.856Z"
+    }
+  ],
+  "marks": [
+    {
+      "id": 1,
+      "studentId": 1,
+      "subjectId": 1,
+      "facultyId": 1,
+      "examType": "Internal 1",
+      "maxMarks": 30,
+      "marks": 26,
+      "date": "2026-10-15",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A"
+    },
+    {
+      "id": 2,
+      "studentId": 2,
+      "subjectId": 1,
+      "facultyId": 1,
+      "examType": "Internal 1",
+      "maxMarks": 30,
+      "marks": 28,
+      "date": "2026-10-15",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A"
+    },
+    {
+      "id": 3,
+      "studentId": 3,
+      "subjectId": 1,
+      "facultyId": 1,
+      "examType": "Internal 1",
+      "maxMarks": 30,
+      "marks": 22,
+      "date": "2026-10-15",
+      "branchId": 1,
+      "semester": 1,
+      "section": "A"
+    }
+  ],
+  "assignments": [
+    {
+      "id": 1,
+      "title": "DBMS Normalization Exercises",
+      "subjectId": 1,
+      "facultyId": 1,
+      "description": "Solve the normalization problems from the class notes.",
+      "dueDate": "2026-11-25",
+      "createdAt": "2026-11-10T10:00:00.000Z"
+    }
+  ],
+  "materials": [
+    {
+      "id": 1,
+      "title": "DBMS Unit 1 Notes",
+      "subjectId": 1,
+      "facultyId": 1,
+      "type": "PDF",
+      "url": "https://example.com/dbms-unit-1.pdf",
+      "createdAt": "2026-11-08T10:00:00.000Z"
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "code": "MCA101",
+      "name": "Database Management Systems",
+      "credits": 4,
+      "department": "MCA",
+      "instructor": "Dr. Sarah Smith"
+    },
+    {
+      "id": 2,
+      "code": "MCA102",
+      "name": "Operating Systems",
+      "credits": 4,
+      "department": "MCA",
+      "instructor": "Prof. Michael Johnson"
+    }
+  ],
+  "enrollments": [],
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Super Admin",
+      "email": "admin@college.edu",
+      "role": "super_admin",
+      "passwordHash": "scrypt$77d1c68a54e1a05394c6f572082cfd2e$ebc184667535dac35fcef915ca4af5f34fdbfcf0caeb6bcdfcc2e34e053d5d46ca5a9c7e3c0cf3d6fe5883583fa13c42b97e06921a14b683253018557639cd47",
+      "active": true,
+      "sessionVersion": 0,
+      "createdAt": "2026-11-15T12:48:28.211Z"
+    },
+    {
+      "id": 2,
+      "name": "Dr. Sarah Smith",
+      "email": "sarah.smith@college.edu",
+      "role": "faculty",
+      "facultyId": 1,
+      "passwordHash": "scrypt$9b2b09f74673ac16eb831cdadb8fcd02$58635b44b558a59ef178d8aad4beef62f66d82a0709ad9a6f26df46a6dd345e1a19607a4667a53baf3f4da423325281e834fe8658ce5a28f2d9f40b6ca8ddce0",
+      "active": true,
+      "sessionVersion": 0,
+      "createdAt": "2026-11-15T12:48:28.462Z"
+    },
+    {
+      "id": 3,
+      "name": "Aarav Kumar",
+      "email": "aarav.kumar@student.edu",
+      "role": "student",
+      "studentId": 1,
+      "passwordHash": "scrypt$e994ae9ebfe7eaa43c0ba7cc3e907fc2$8b3242e82629292802bfbc1323e38d8376a7fcfcb8dd91ddb9c38eeca157b8374efbb7752d569fd4c366362f21252445ccbf874ecb79a272eab15c338bcf0f8f",
+      "active": true,
+      "sessionVersion": 0,
+      "createdAt": "2026-11-15T12:48:28.684Z"
+    },
+    {
+      "id": 4,
+      "name": "Dileep Kumar G S",
+      "email": "dileepkumar61675@gmail.com",
+      "role": "student",
+      "studentId": 6,
+      "passwordHash": "scrypt$fd12c82e7903d2a99cd6dd2f32d72d5b$9b04dd4f739453fd6cb1f691600ae240aef2bc9303483f47a554fbe71e279b2efc1b0a3b466a374d98e433c8524218e34eaf7271bb79447822947bcc44d9bc95",
+      "active": true,
+      "sessionVersion": 0,
+      "createdAt": "2026-11-15T13:30:46.066Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": 1,
+      "action": "student_account_created",
+      "actorEmail": "admin@college.edu",
+      "actorRole": "super_admin",
+      "target": "student:6",
+      "details": "student login account created by Super Admin.",
+      "createdAt": "2026-11-15T13:30:46.067Z"
+    }
+  ]
+}
